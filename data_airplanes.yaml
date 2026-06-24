@@ -1,0 +1,13 @@
+path: /linux/antoimartin/v2/dataset_airplanes
+train: images/train
+val: images/val
+test: images/test
+
+nc: 6
+names:
+  0: Boeing747
+  1: Boeing777
+  2: Boeing787
+  3: A321
+  4: A330
+  5: A350

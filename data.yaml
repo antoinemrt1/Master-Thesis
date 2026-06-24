@@ -1,0 +1,44 @@
+# data.yaml
+train: /linux/antoimartin/v2/dataset/images/train
+val: /linux/antoimartin/v2/dataset/images/val
+test: /linux/antoimartin/v2/dataset/images/test
+
+nc: 37
+names:
+  0: Passenger Ship
+  1: Motorboat
+  2: Fishing Boat
+  3: Tugboat
+  4: other-ship
+  5: Engineering Ship
+  6: Liquid Cargo Ship
+  7: Dry Cargo Ship
+  8: Warship
+  9: Small Car
+  10: Bus
+  11: Cargo Truck
+  12: Dump Truck
+  13: other-vehicle
+  14: Van
+  15: Trailer
+  16: Tractor
+  17: Excavator
+  18: Truck Tractor
+  19: Boeing737
+  20: Boeing747
+  21: Boeing777
+  22: Boeing787
+  23: ARJ21
+  24: C919
+  25: A220
+  26: A321
+  27: A330
+  28: A350
+  29: other-airplane
+  30: Baseball Field
+  31: Basketball Court
+  32: Football Field
+  33: Tennis Court
+  34: Roundabout
+  35: Intersection
+  36: Bridge

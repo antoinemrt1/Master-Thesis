@@ -1,0 +1,14 @@
+=== RAPPORT STATISTIQUE DES EXPERIENCES CEAL ===
+
+--- Strategie : CEAL_top_efficiency_30min (Cumul a la derniere mission) ---
+Images annotees au total : 672
+Boites tracees au total  : 3607
+Densite moyenne          : 5.37 avions/image
+Cout humain total simule : 13968.5 secondes (232.8 minutes)
+
+--- Strategie : CEAL_random_30min (Cumul a la derniere mission) ---
+Images annotees au total : 1334
+Boites tracees au total  : 3494
+Densite moyenne          : 2.62 avions/image
+Cout humain total simule : 14897.0 secondes (248.3 minutes)
+
