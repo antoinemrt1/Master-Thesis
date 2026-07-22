@@ -61,9 +61,13 @@ def train_split_baseline(split_version, model_type, imgsz, batch, device):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--split", required=True, choices=["split4", "split16", "all"], help="Quel dataset entrainer")
-    parser.add_argument("--model", default="yolov8s.pt", help="Le modele de base (ex: yolov8s.pt)")
-    parser.add_argument("--imgsz", type=int, default=640, help="Resolution YOLO")
-    parser.add_argument("--batch", type=int, default=32, help="Taille de lot")
+    # DEFAUTS ALIGNES SUR LA BASELINE R0 (baseline_stratified_20pct_yolov8l_1024) :
+    # meme architecture (YOLOv8-L) et meme resolution (1024) pour que les
+    # performances par resolution soient directement comparables entre elles.
+    parser.add_argument("--model", default="yolov8l.pt", help="Le modele de base (defaut: yolov8l.pt, comme la baseline R0)")
+    parser.add_argument("--imgsz", type=int, default=1024, help="Resolution YOLO (defaut: 1024, comme la baseline R0)")
+    parser.add_argument("--batch", type=int, default=8,
+                        help="Taille de lot TOTALE (repartie sur les GPUs de --device ; 8 sur 2 GPUs = 4/GPU, OK a 1024px)")
     parser.add_argument("--device", required=True, help="ex: 0,1 ou 0,1,2,3")
     args = parser.parse_args()
 
