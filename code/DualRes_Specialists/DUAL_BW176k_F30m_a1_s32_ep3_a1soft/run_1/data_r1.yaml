@@ -1,0 +1,5 @@
+train: /linux/antoimartin/v2/code/DualRes_Specialists/DUAL_BW176k_F30m_a1_s32_ep3_a1soft/run_1/r1/images
+val: /linux/antoimartin/v2/dataset/images/val
+test: /linux/antoimartin/v2/dataset/images/test
+nc: 37
+names: ['Passenger Ship', 'Motorboat', 'Fishing Boat', 'Tugboat', 'other-ship', 'Engineering Ship', 'Liquid Cargo Ship', 'Dry Cargo Ship', 'Warship', 'Small Car', 'Bus', 'Cargo Truck', 'Dump Truck', 'other-vehicle', 'Van', 'Trailer', 'Tractor', 'Excavator', 'Truck Tractor', 'Boeing737', 'Boeing747', 'Boeing777', 'Boeing787', 'ARJ21', 'C919', 'A220', 'A321', 'A330', 'A350', 'other-airplane', 'Baseball Field', 'Basketball Court', 'Football Field', 'Tennis Court', 'Roundabout', 'Intersection', 'Bridge']
